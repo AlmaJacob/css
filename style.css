@@ -1,0 +1,40 @@
+
+h1{
+    color: blue;
+    background-color: bisque;
+}
+
+#prg{
+    color: blue;
+}
+.t1,h3{
+    color: rgb(255, 0, 234);
+}
+h3{
+    background-color: coral;
+}
+.main{
+width: 600px;
+height: 400px;
+background-color:rebeccapurple;
+position:relative
+}
+.sub1{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    bottom: 0px;
+    background-color:green;
+
+
+}
+.sub2{
+    position:absolute;
+    width: 200px;
+    height :200px;
+    top:100px;
+    bottom:300px;
+    background-color:blue;
+
+}
