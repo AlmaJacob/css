@@ -1,0 +1,61 @@
+.main{
+    background-color:whitesmoke;
+    height: 500px;
+    width: 850px;
+    position: relative;
+
+}
+.sub1{
+ 
+    background-color:antiquewhite;
+    height: 450px;
+    width: 200px;
+    left: 10px;
+    
+    
+    
+    position: absolute;
+}
+.sub2{
+
+    background-color:antiquewhite;
+    height: 450px;
+    width: 200px;
+    left: 220px;
+    position: absolute;
+}
+.sub3{
+   
+    background-color:antiquewhite;
+    height: 450px;
+    width: 200px;
+    left: 430px;
+    position: absolute;
+}
+.sub4{
+   
+    background-color:antiquewhite;
+    height: 450px;
+    width: 200px;
+    right:10px;
+    position: absolute;
+    }
+    .pic{
+        width: 200px;
+        height: 100px;
+
+    }
+    .head{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .p{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .nm{
+        padding-top: 130;
+        padding-left: 10px;
+    }
+
