@@ -1,0 +1,40 @@
+h2{
+    text-transform: uppercase;
+    text-indent: 100px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px green,00 5px red,00 5px rebeccapurple;
+    
+}
+p{
+    word-spacing: 2px;
+    line-height: 2px;
+    white-space: nowrap;
+    text-shadow: 2px 2px;
+}
+
+    .a{
+        word-spacing: 10px;
+        line-height: 6px;
+
+    }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 20em;
+        text-shadow: 2px 2px 2px red,00 5px goldenrod,00 5px blueviolet;
+    }
+
+    table{
+        width: 100%;
+        border: 2px  solid;
+        border-collapse: collapse;
+    }
+    table,th,td{
+        border: 2px solid;
+    }
+    td{
+        text-align: center;
+        vertical-align: bottom;
+        padding: 2px;
+        
+    }
