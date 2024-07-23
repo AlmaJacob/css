@@ -1,0 +1,29 @@
+body{
+    background-image: url(pic.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: center;
+background-attachment: fixed;
+}
+p{
+    border:6px green solid ;
+    border-radius: 10px;
+    text-align: justify;
+    height: 300px;
+    width: 600px;
+}
+.a,h2 {
+    border:6px blue double;
+    border-radius: 10px;
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    
+    text-decoration: overline underline;
+}
+h2 span{
+    vertical-align: sub;
+}
+a{
+    text-decoration: none;
+}
