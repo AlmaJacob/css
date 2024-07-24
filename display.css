@@ -1,0 +1,67 @@
+a{
+    display: block;
+}
+.ee{
+    display: inline;
+}
+.dd{
+    display: none;
+}
+.main{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid blueviolet
+  }
+  .container{
+    position: relative;
+  }
+   .a{
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    font-size: 18px;
+  }
+  .b{
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    font-size: 18px;
+  }
+  .c{
+    position: absolute;
+    bottom: 3px;
+    left: 8px;
+    font-size: 18px;
+
+  }
+   .d{
+    position: absolute;
+    bottom: 3px;
+    right: 8px;
+    font-size: 18px;
+
+   }
+   .e{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+
+   }
+   img{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+   }
+   .stat{
+    position: static;
+    border: 5px solid red;
+   }
+   .fix{
+    position: fixed;
+    border: 5px solid blueviolet;
+   }
+    
