@@ -1,0 +1,13 @@
+img{
+    position: absolute;
+    height:300px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.c{
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    background-color: brown;
+}
