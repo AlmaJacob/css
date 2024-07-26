@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>link</h1>
+<style>
+    a:link {
+  color: yellow;
+}
+
+
+a:visited {
+  color: aqua;
+}
+
+
+a:hover {
+  color: green;
+}
+
+
+a:active {
+  color: rebeccapurple;
+}
+a.highlight:hover{
+    color: brown;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+div{
+    background-color: aquamarine;
+    color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+div:hover{
+    background-color: green;
+}
+img{
+    opacity: o.3;
+}
+img:hover{
+    opacity: 0.9;
+}
+::marker{
+    color: blue;
+    font-size: 30px;
+    
+}
+::selection{
+    color: green;
+    background-color: hotpink;
+    
+}
+
+
+
+
+
+</style>
+<body>
+    <p></p><a href="autmn.jpg">This is a link</a>
+    <p>a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+   <p>when mouse point to the link highlight the link</p>
+   <p><a class= "highlight" href="dance.webp">click link</a> </p>
+   <h2>hover in div</h2>
+   <div>change my color</div>
+   <h1>opacity in image</h1>
+   <img src="autmn.jpg" alt="" height="300px" width="200px">
+   <ul>
+    <li>black</li>
+    <li>green</li>
+    <li>red</li>
+  </ul>
+  
+  <ol>
+    <li>good</li>
+    <li>bad</li>
+    <li>nevermind</li>
+  </ol>
+ <p>these is a paragrah selected to check whether selection attribute is working or not</p>
+ 
+ 
+
+</body>
+</html>
