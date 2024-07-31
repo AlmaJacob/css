@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>                                                                                                                                                                                                                                                                                
+     .head{
+        grid-area: head;
+        background-color: aquamarine; 
+        color: green;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;                                                          
+    }
+    .nav{
+        grid-area: nav;
+        background-color: blue;                                                           
+}
+    .menu{
+        grid-area: menu;
+        background-color:hotpink; 
+        font-size: 40px;
+        color: black;  
+        
+        
+        
+        text-align: center;
+        padding-top: 20px;                                                            
+    }
+    .msg{
+        grid-area: msg;
+        background-color: goldenrod;  
+        font-size: 30px;   
+        text-align: center;                                                      
+    }
+    .img{
+        grid-area: img;
+        background-color:violet; 
+            
+
+    }
+    .btn{
+        grid-area: btn;
+        background-color: wheat; 
+        font-size: 25px;   
+        text-align: center;  
+        padding-top: 20px;                                                              
+    }
+    .btn2{
+        grid-area: btn2;
+        background-color: aquamarine;
+        font-size: 25px;   
+        text-align: center; 
+        padding-top: 20px;         
+    }
+    .main{
+        display: grid;
+        grid-template-areas: 'head head head head nav nav nav'
+        'menu menu menu menu img img img'
+        'msg msg msg msg img img img'
+        'btn btn btn2 btn2 img img img';
+        
+        grid-template-rows: 75px 350px 100px 80px;
+    }
+    img{
+        width: 100%;
+        height: 530px;
+    }
+    .p1{
+        font-size: 25px;
+        color: black
+    }
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+
+    }
+    li{
+        float: left;
+    }
+    li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+
+    }
+    li a:hover:not(.active){
+        background-color: bisque;
+        
+    }
+    
+</style>
+<body>
+    <div class="main">
+        <div class="head">Web Diary</div>
+        <div class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu">Css grid Example <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id iusto libero aliquid fuga ad ea. Necessitatibus deserunt, mollitia at consequatur itaque, ab magni alias asperiores voluptate accusantium debitis sed!Reprehenderit, odit porro sequi maxime a consequuntur accusantium enim eum corporis. Maxime, ratione deleniti ipsam labore quas omnis incidunt ullam nemo suscipit?</p></div>
+        <div class="msg"><p>"Lorem ipsum dolor sit amet Lorem ipsum, dolor sit amet"  </p></div>
+        <div class="img"><img src="autmn.jpg" alt="" ></div>
+        <div class="btn">Read more</div>
+        <div class="btn2">view all</div>
+    </div>
+    
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                             
